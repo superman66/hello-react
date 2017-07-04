@@ -8,6 +8,7 @@ import App from './App'
 import Home from './Home'
 import About from './About'
 import Calculator from './component/Calculator'
+import AnimateDemo from './animation/index'
 
 export default (
     <Router history={hashHistory}>
@@ -16,6 +17,7 @@ export default (
 
         <Route path="/about/:username" component={About}/>
         <Route path='/calculator' component={Calculator}/>
+        <Route path='/animation-demo' component={AnimateDemo}/>
       </Route>
     </Router>
 )
